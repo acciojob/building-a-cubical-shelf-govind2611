@@ -10,7 +10,6 @@ body {
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
-    transform: rotateX(0deg) rotateY(45deg);
     animation: rotate 5s linear infinite;
 }
 
@@ -29,7 +28,7 @@ body {
 .bottom { transform: rotateX(-90deg) translateZ(100px); }
 
 .line {
-    height: 33.3%;
+    height: 33.33%;
     border-bottom: 1px solid black;
 }
 
